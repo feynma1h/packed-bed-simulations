@@ -1,0 +1,22 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+.idea/
+.vscode/
+
+# Blender backups / caches
+*.blend1
+*.blend2
+blendcache_*/
+
+# MATLAB / Python
+*.asv
+*.mat
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Large intermediate outputs (regenerate via the pipeline)
+slices/
+*.tmp
